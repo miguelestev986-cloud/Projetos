@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* count lines in input */
+
+/*Escreva um programa que conta quantos espaços,
+tabulações e quebras de linha existem na entrada. */
+
 int main(){
 
     int c, nl, tab, blank;
@@ -18,5 +21,4 @@ int main(){
         }
     printf("Linhas: %d\nTab: %d\nEspaços: %d", nl, tab, blank);
     return 0;
-
 }

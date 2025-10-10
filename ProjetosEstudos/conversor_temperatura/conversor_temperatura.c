@@ -3,12 +3,14 @@
 int main()
 {
     float fahr, celsius;
-    int lower, upper, step;
+    int lower, upper, step, ca;
 
     lower = 0;   /* lower limit of temperature table */
     upper = 300; /* upper limit */
     step = 20;   /* step size */
+    ca = 'A';
 
+    printf("%d", ca);
     printf("\nConversor de Temperatura\n\nFahrenheit\tCelsius\n");
 
     fahr = lower;
@@ -32,4 +34,5 @@ int main(){
     int fahr;
     for (fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)
         printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
+}
 */
