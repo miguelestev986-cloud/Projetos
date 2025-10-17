@@ -1,23 +1,26 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main() {
 
-	long nc;
+	int nc;
 	nc = 0;
-	while (getchar() != EOF);
+	while (getchar() != EOF)
 		++nc; 
-	printf("%ld\n", nc);
+	printf("%d\n", nc);
 	return 0;
 }
-*/
+/*
+
 #include <stdio.h>
 
 int main() {
 	
-	int nc;
-	for (nc = 0; getchar() != EOF; ++nc)
-        ;
+	int
+	nc;
+	for (nc = 0; getchar() != EOF; ++nc){
+		;
+	}
 	// for deve ter um corpo, mesmo que seja um delaração nula
-    printf("%.0f\n", nc);
+    printf("%d\n", nc);
 	return 0;
-}
+}*/
