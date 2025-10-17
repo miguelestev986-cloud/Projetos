@@ -1,0 +1,6 @@
+nome = str(input('Seu nome completo: '))
+print(nome.upper())
+print(nome.lower())
+print(f'O seu nome tem {len(nome) - nome.count(' ')} caracteres.')
+sobrenome = nome.split()
+print(f'O seu primeiro nome é {sobrenome[0]} e ele tem {len(sobrenome[0])} caracteres.')
